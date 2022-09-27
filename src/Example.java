@@ -443,7 +443,7 @@ public class Example {
 //        }
 //    }
     public List<List<Integer>> generate(int numRows) {
-
+        System.out.println("develop commit");
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i<numRows; i++){
             List line = new ArrayList<Integer>();
