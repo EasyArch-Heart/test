@@ -442,6 +442,13 @@ public class Example {
 //            return (root.left == null && root.right == null) ? 1 : Math.min(minLength(root.left), minLength(root.right)) + 1;
 //        }
 //    }
+
+    public List<Integer> preorderTraversal(TreeNode1 root) {
+        if(root!=null){
+
+        }
+    }
+
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i<numRows; i++){
@@ -612,4 +619,17 @@ class XXX extends Test1{
     public XXX(int x) {
         super(x);
     }
+}
+
+class TreeNode1 {
+      int val;
+      TreeNode1 left;
+      TreeNode1 right;
+      TreeNode1() {}
+      TreeNode1(int val) { this.val = val; }
+      TreeNode1(int val, TreeNode1 left, TreeNode1 right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
 }
